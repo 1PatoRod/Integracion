@@ -1,0 +1,24 @@
+
+.ContainerCards {
+    width: 99vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-image: url('https://wallpapercave.com/wp/wp3277661.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.Cortina {
+    width: 99vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background: rgba(49, 49, 49, 0.514);
+}
