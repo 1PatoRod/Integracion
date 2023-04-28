@@ -1,0 +1,54 @@
+.back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: row;
+    overflow: hidden;
+}
+.planet {
+    position: relative;
+    animation: planetLoad 1.3s linear infinite alternate;
+    opacity: 40%;
+    z-index: 1;
+}
+
+@keyframes planetLoad {
+    0% {
+        opacity: 80%;
+        filter: blur(0px);
+    }
+    100% {
+        opacity: 100%;
+        filter: blur(5px);
+    }
+}
+
+
+.loader {
+    left: 50%;
+    top: 73%;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: block;
+    margin:15px auto;
+    position: fixed;
+    background: #FFF;
+    box-sizing: border-box;
+    animation: shadowExpandX 1.3s linear infinite alternate;
+  }
+  
+  @keyframes shadowExpandX {
+    0% {
+      box-shadow: 0 0, 0 0;
+      color: rgba(255, 255, 255, 0.2);
+      filter: blur(1px);
+    }
+    100% {
+      box-shadow: -24px 0, 24px 0;
+      color: rgba(255, 255, 255, 0.8);
+      filter: blur(0px);
+    }
+  }

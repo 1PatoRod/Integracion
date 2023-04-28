@@ -1,0 +1,12 @@
+.Container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background: #fff0;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.back {
+    z-index: -100;
+}

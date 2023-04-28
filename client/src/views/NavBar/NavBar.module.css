@@ -1,0 +1,61 @@
+.cont {
+	display: flex;
+	flex-direction: row;
+	position: sticky;
+	top: 0;
+	width: 100vw;
+	justify-content: space-around;
+	align-items: center;
+	padding: 5px;
+	background: #2d31478e;
+	backdrop-filter: blur(5px);
+}
+.order {
+	display: flex;
+	flex-direction: column;
+}
+.infBut {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	width: 20vw;
+}
+.tittle {
+	font-size: 30px;
+    transition: 0.3s
+}
+.tittle:hover {
+    color: #31f151;
+    text-shadow: 1px 1px 3px #1a7a2a;
+    transition: 0.8s
+}
+.but {
+	background-color: #2d314741;
+	backdrop-filter: blur(3px);
+	color: #5c6074;
+	float: left;
+	padding: 8px 16px;
+	text-decoration: none;
+	border-radius: 5px;
+	justify-content: center;
+	border: none;
+	transition: 0.3s;
+	margin: 3px;
+}
+.but:hover {
+	background-color: #4b5383;
+	box-shadow: 0 0 3px 1px #4b5383;
+    color: #31f151;
+    text-shadow: 1px 1px 3px #1a7a2a;
+	cursor: pointer;
+    font-size: 15px;
+	transition: 0.8s;
+}
+
+.tittleName {
+    font-size: 40px;
+    color: #31f151;
+    text-shadow: 1px 1px 3px #1a7a2a;
+}

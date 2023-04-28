@@ -1,0 +1,56 @@
+.allCont {
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    height: 40px;
+    border-radius: 30px;
+    background: #2d3147;
+    transition: 0.3s;
+    overflow: hidden;
+}
+.SearchBar {
+    width: 200px;
+    height: 40px;
+    text-decoration: none;
+    border: none;
+    background: #2d3147;
+    padding: 5px;
+    outline: none;
+    animation: entry 0.5s linear alternate;
+}
+.button {
+    width: 100px;
+    background: #4b5383;
+    border: none;
+    border-radius: 40px;
+    animation: entry 0.5s linear alternate;
+    transition: 0.8s;
+}
+.allCont:hover {
+    text-decoration: none;
+    border: solid 1px #31f151;
+    box-shadow: 1px 1px 3px #1a7a2a;
+    transition: 0.8s;
+}
+.allCont:focus {
+    text-decoration: none;
+    border: solid 1px #31f151;
+    box-shadow: 1px 1px 3px #1a7a2a;
+}
+
+.SearchBar:hover {
+    border: none;
+    text-decoration: none;
+    outline: none;
+}
+
+@keyframes entry {
+    0% {
+        opacity: 20%;
+        transform: translateX(100px);
+    }
+    100%{
+        opacity: 100%;
+        transform: translateX(0px);
+    }
+}

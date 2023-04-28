@@ -1,0 +1,61 @@
+.cont {
+    display: flex;
+    flex-direction: row;
+    background: #2d314777;
+    backdrop-filter: blur(3px);
+    width: 60vw;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #1c1f30;
+    color: beige;
+    animation: openTo 1s linear;
+}
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    width: 40%;
+    font-family: 'Courier New', Courier, monospace;
+}
+.inf {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 60%;
+    font-family: 'Courier New', Courier, monospace;
+}
+.tittle {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.name {
+    font-family: 'Get Schwifty Regular';
+}
+.id {
+    position: relative;
+    left: 15%;
+}
+.one {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin: auto;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@keyframes openTo {
+    0% {
+        transform: translateX(-60px) translateY(-60px);
+        opacity: 20%;
+    }
+    100% {
+        transform: translateX(0px) translateY(0px);
+        opacity: 100%;
+    }
+}
